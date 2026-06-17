@@ -1,61 +1,61 @@
+<div align="center">
+
 # TradeInTune
 
-Interactive forex education platform built for self-directed learners.
+**Duolingo for forex.**
 
-[tradeintune.com](https://tradeintune.com)
+Gamified, interactive forex education. You do not watch videos. You press the button, read the chart, answer the question, and get graded in real time.
 
----
+[![Status](https://img.shields.io/badge/status-pre--launch-blue)](https://tradeintune.com)
+[![Site](https://img.shields.io/badge/web-tradeintune.com-146ef5)](https://tradeintune.com)
+[![Track record](https://img.shields.io/badge/track%20record-verified-success)](https://tradeintune.com/track-record)
 
-## What it is
+</div>
 
-A skill-building platform for forex trading. Lessons are short, interactive, and focused on reps over passive video consumption. Users move through a structured curriculum of 14 modules covering everything from "what is a currency pair" to live trade journaling and prop firm scaling.
+## What this is
 
-The platform is built around a verified track record (ASIC-regulated brokerage, public MYFXBOOK results) and treats trading as a hard skill that takes deliberate practice, not a get-rich-quick pitch.
+Forex is one of the most-searched skills on the internet and one of the worst-taught: endless YouTube playlists, signal groups that need you dependent, and gurus who never show a verified account.
 
----
+TradeInTune is the structural fix. A 14-module, 123-lesson curriculum taught entirely through interactive beats, gated by graded checkpoints, wrapped in game mechanics that make showing up tomorrow the path of least resistance, and anchored to the founder's MYFXBOOK-verified live track record. The losing months are published too. That is the point.
 
-## Tech stack
+## How it teaches
 
-**Frontend**
-- [Next.js 16](https://nextjs.org) (App Router, Turbopack)
-- TypeScript
-- Tailwind CSS
-- [Framer Motion](https://www.framer.com/motion/) for transitions and lesson animations
-- [Lucide](https://lucide.dev) for icons
-- [next-themes](https://github.com/pacocoursey/next-themes) for dark mode
+- **15 beat types per lesson.** Teach screens with optional voice-over, video beats, and 12 quiz formats: multiple choice, true/false, fill-in-the-blank, swipe decks, matching, screenshot reading, sequencing, multi-select, categorize, numeric estimate, odd-one-out, and chart-draw, where you draw a level or trendline on a real candle tape, get graded against price and time tolerances, then watch the remaining bars replay forward.
+- **Checkpoints.** Every module ends in a graded exam: one attempt per question, 85% to pass. No skipping fundamentals on vibes.
+- **Hearts, XP, gems, streaks.** Wrong answers cost hearts. Consistency pays for the safety net. All awards are server-authoritative with evidence checks, so the leaderboard cannot be forged from a browser console.
+- **An adaptive engine.** Every answer is logged against 46 tagged concepts. Your weakest concept becomes your next drill, and every mistake you make becomes a replayable review queue.
 
-**Backend & infra**
-- [Supabase](https://supabase.com) — Postgres, Auth, Storage, Row Level Security
-- [Vercel](https://vercel.com) — hosting and edge functions
-- [Stripe](https://stripe.com) — subscription billing (monthly + yearly tiers)
-- [PostHog](https://posthog.com) — product analytics
+## Features
 
-**Data layer**
-- [@tanstack/react-query](https://tanstack.com/query) — client-side caching and invalidation
-- [Zod](https://zod.dev) — runtime validation at API boundaries
+- 14 modules / 123 lessons, first 5 modules free
+- 43 scenario drills on a real candle chart engine
+- Adaptive weak-spot drills across 46 concepts
+- Mistakes review: your wrong answers become your curriculum
+- Road Map: 35 real-world homework tasks (open the demo account, sit out the news release)
+- Daily challenge from a 206-question adaptive bank
+- 147-term progress-gated glossary
+- 24 badges computed live from real stats
+- Global and friends leaderboards, community feed, public profiles
+- Free browser tools: position size and compounding calculators, no account needed
 
----
+## Stack
 
-## Architecture notes
+| Layer | Tech |
+|---|---|
+| Framework | Next.js 16 (App Router), React 19, TypeScript |
+| Styling | Tailwind CSS v4, Framer Motion |
+| Backend | Supabase (Postgres + RLS, Auth, Storage), server-authoritative game economy |
+| Payments | Stripe (subscriptions, webhooks, customer portal) |
+| Charts | lightweight-charts v5 powering the drill engine |
+| Data layer | TanStack Query 5 with server-seeded caches |
+| Hosting | Vercel, static-rendered marketing pages on the edge |
 
-- App Router with route groups: `(marketing)`, `(auth)`, `(app)`, `(lesson)`
-- Lesson route group is a full-screen takeover bypassing the standard app shell — no sidebar, no bottom nav
-- Streak math is user-local (not UTC) to prevent timezone bugs for non-UTC users
-- Admin gating is UUID-based via env var, never email
-- All XP-writing operations are gated by check constraints + planned to move behind a server RPC
+## Honesty, enforced in code
 
----
-
-## Curriculum
-
-14 modules. ~123 lessons. ~350-400 interactive quiz questions across 20+ unique question types — not just multiple choice, but swipe-card validation, matching, fill-in, scenario drills, risk calculators, and chart annotation tasks.
-
-Modules 1-5 are free. Modules 6-14 are gated behind the paid subscription.
-
----
+Testimonials on the site are gated behind a literal `TESTIMONIALS_ARE_REAL = false` flag and will not render until real ones exist. No earnings projections anywhere. No signals, no copy-trading, no live-account mirror. The product is built so users outgrow it, on purpose.
 
 ## Status
 
-Live in production at [tradeintune.com](https://tradeintune.com).
+**Pre-launch.** The product is built end to end and live at [tradeintune.com](https://tradeintune.com); the user base is currently zero and we say so. Built solo by a 20-year-old funded trader who publishes his real monthly results, red months included, at [tradeintune.com/track-record](https://tradeintune.com/track-record).
 
-This repo intentionally contains only documentation. The application source is private.
+Building in public. The streak starts at launch.
