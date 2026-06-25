@@ -50,12 +50,8 @@ TradeInTune is the structural fix. A 14-module, 123-lesson curriculum taught ent
 | Data layer | TanStack Query 5 with server-seeded caches |
 | Hosting | Vercel, static-rendered marketing pages on the edge |
 
-## Honesty, enforced in code
-
-Testimonials on the site are gated behind a literal `TESTIMONIALS_ARE_REAL = false` flag and will not render until real ones exist. No earnings projections anywhere. No signals, no copy-trading, no live-account mirror. The product is built so users outgrow it, on purpose.
-
 ## Status
 
-**Pre-launch.** The product is built end to end and live at [tradeintune.com](https://tradeintune.com); the user base is currently zero and we say so. Built solo by a 20-year-old forex trader who got tired of watching the skill get taught with playlists and hype.
+**Pre-launch.** The product is built end to end and live at [tradeintune.com](https://tradeintune.com); the user base is currently 6.
 
 Building in public. The streak starts at launch.
