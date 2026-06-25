@@ -8,15 +8,15 @@ Gamified, interactive forex education. You do not watch videos. You press the bu
 
 [![Status](https://img.shields.io/badge/status-pre--launch-blue)](https://tradeintune.com)
 [![Site](https://img.shields.io/badge/web-tradeintune.com-146ef5)](https://tradeintune.com)
-[![Track record](https://img.shields.io/badge/track%20record-verified-success)](https://tradeintune.com/track-record)
+[![Built in public](https://img.shields.io/badge/built-in%20public-7a3dff)](https://tradeintune.com)
 
 </div>
 
 ## What this is
 
-Forex is one of the most-searched skills on the internet and one of the worst-taught: endless YouTube playlists, signal groups that need you dependent, and gurus who never show a verified account.
+Forex is one of the most-searched skills on the internet and one of the worst-taught: endless YouTube playlists, signal groups that keep you dependent, and gurus who profit whether you learn or not.
 
-TradeInTune is the structural fix. A 14-module, 123-lesson curriculum taught entirely through interactive beats, gated by graded checkpoints, wrapped in game mechanics that make showing up tomorrow the path of least resistance, and anchored to the founder's MYFXBOOK-verified live track record. The losing months are published too. That is the point.
+TradeInTune is the structural fix. A 14-module, 123-lesson curriculum taught entirely through interactive beats, gated by graded checkpoints, and wrapped in game mechanics that make showing up tomorrow the path of least resistance. You build the skill by doing the reps yourself, not by watching someone else do them. That is the point.
 
 ## How it teaches
 
@@ -56,6 +56,6 @@ Testimonials on the site are gated behind a literal `TESTIMONIALS_ARE_REAL = fal
 
 ## Status
 
-**Pre-launch.** The product is built end to end and live at [tradeintune.com](https://tradeintune.com); the user base is currently zero and we say so. Built solo by a 20-year-old funded trader who publishes his real monthly results, red months included, at [tradeintune.com/track-record](https://tradeintune.com/track-record).
+**Pre-launch.** The product is built end to end and live at [tradeintune.com](https://tradeintune.com); the user base is currently zero and we say so. Built solo by a 20-year-old forex trader who got tired of watching the skill get taught with playlists and hype.
 
 Building in public. The streak starts at launch.
