@@ -2,9 +2,9 @@
 
 # TradeInTune
 
-**Duolingo for forex.**
+**Duolingo for Trading.**
 
-Gamified, interactive forex education. You do not watch videos. You press the button, read the chart, answer the question, and get graded in real time.
+Gamified, interactive Trading education. You do not watch videos. You press the button, read the chart, answer the question, and get graded in real time.
 
 [![Status](https://img.shields.io/badge/status-pre--launch-blue)](https://tradeintune.com)
 [![Site](https://img.shields.io/badge/web-tradeintune.com-146ef5)](https://tradeintune.com)
@@ -14,7 +14,7 @@ Gamified, interactive forex education. You do not watch videos. You press the bu
 
 ## What this is
 
-Forex is one of the most-searched skills on the internet and one of the worst-taught: endless YouTube playlists, signal groups that keep you dependent, and gurus who profit whether you learn or not.
+Trading is one of the most-searched skills on the internet and one of the worst-taught: endless YouTube playlists, signal groups that keep you dependent, and gurus who profit whether you learn or not.
 
 TradeInTune is the structural fix. A 14-module, 123-lesson curriculum taught entirely through interactive beats, gated by graded checkpoints, and wrapped in game mechanics that make showing up tomorrow the path of least resistance. You build the skill by doing the reps yourself, not by watching someone else do them. That is the point.
 
